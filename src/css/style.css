@@ -1,0 +1,269 @@
+
+
+
+/* !style for hero */
+.hero{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.889), rgba(0, 0, 0, 0.6)),  url("../img/bg.png");
+        padding: 0 0 200px 0;
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat; 
+        background-size: cover;
+        position: relative;
+}
+.hero__left--heading{
+        margin-top: 250px;
+        font-weight: 700;
+        left: 120px;
+        font-size: 70px;
+        letter-spacing: 0.3px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        justify-content: center;
+          
+}
+.hero__left--content{
+left: 120px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.3px;
+color: #FFFFFF;
+}
+.hero__left--btn{
+left: 120px;
+}
+.hero__left--aboutBtn{
+padding: 20px;
+border: none;
+
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.3px;
+color: #FFFFFF;
+background-color: none;
+}
+
+/* !style for about */
+.about__left--img{
+        height: 550px;
+        width: 600px;
+}
+.about__right--titile{
+left: 717px;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.3px;
+color: #282A2E;
+padding: 10px;
+}
+.about__right--content{
+font-weight: 400;
+font-size: 18px;
+letter-spacing: 0.5px;
+color: #2F2F2F;
+opacity: 0.7;
+padding: 10px;
+}
+.about__right--writeTitle{
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 0.3px;
+color: #282A2E;
+}
+/* !styles for booking part */
+.booking{
+        background-image:url("../img/bookingbg.png");
+        background-position: center;
+        background-repeat: no-repeat; 
+        background-size: cover;
+        position: relative;
+        padding: 50px 0 50px 0;
+        margin-top: 50px;
+}
+.booking__right{
+width: 591px;
+height: 600px;
+padding: 30px;
+background: rgba(0, 0, 0, 0.8);
+backdrop-filter: blur(3px);
+}
+.booking__right--formTitle{
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: #FFFFFF; 
+}
+.booking__type{
+        color: white;
+        font-size: 30px;
+        letter-spacing: 3px;
+        margin: 0, 35px, 0, 0;
+}
+.booking__input{
+        border: none;
+        width: 250px;
+        height: 62px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+}
+.booking__right--dateStartInput{
+       margin-left: 70px;
+       width: 250px;
+}
+.booking__right--dateEndInput{
+        width: 250px;
+        height: 62px;
+        margin-top: 18px!important;
+}
+.terms{
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        font-style: normal;
+        margin-top: 20px;
+        letter-spacing: 2px;
+}
+.service,.policy{
+        color: #00AE6C;
+}
+.submit-btn{
+        background-color: #00AE6C;
+        padding: 20px 0 20px 0;
+        cursor: pointer;
+}
+/* !styles for testimonial */
+.testimonial__left--heading{
+        font-size: 60px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        text-transform: capitalize;
+}
+.testimonial__right--title{
+        font-size: 30px;
+        font-weight: 500;
+        color: #00AE6C;
+}
+.testimonial__right--content{
+        font-size: 16px;
+        letter-spacing: 0.9px;
+}
+.testimonial__card{
+        border: none !important;
+        border-radius: 50px !important;
+        background-color: #ECFEF7 !important;
+        padding: 20px;
+        margin: 20px; 
+}
+.common-name{
+        font-size: 20px;
+        font-weight: 700;
+        padding: 20px 20px 0 0;
+}
+.common-title{
+        font-size: 13px;
+        opacity: 0.7;
+}
+.card-image{
+        width: 72px;
+        height: 72px;
+        padding: 10px 0 0 10px;
+}
+.star-icon{
+        padding: 0 10px 0 0;
+}
+.card-details{
+        font-size: 14px;
+}
+/* !style for space */
+.space__image{
+        margin-top: 100px;
+}
+.space__image--1{
+  
+}
+.space__image--3{
+        
+       
+}
+/* !style for blog */
+.blog{
+        background-color: #ECFEF7;
+        padding: 100px 0 50px 0;
+}
+.card{
+        border: none !important;
+        background-color: #ECFEF7 !important;
+        margin: 10px;
+        justify-content: center;
+}
+.card-img-top{
+        width: 400px !important;
+        padding: 15px;
+        
+}
+.blog__heading{
+font-weight: 600;
+font-size: 48px;
+letter-spacing: 0.3px;
+color: #282A2E;
+}
+.card-heading{
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 12px;
+letter-spacing: 1px;
+color: #00AE6C;
+}
+.card-text{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+}
+.blog__card--text{
+font-weight: 600;
+font-size: 23px;
+line-height: 33px;
+color: #121212;
+}
+.blog__btn{
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        background: #00AE6C;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+}
+/* !styles for newsletter */
+.newsletter__input{
+box-sizing: border-box;
+height: 53px;
+width: 400px;
+border: 1px solid #00AE6C;
+}
+.newsletter__btn{
+        background: #00AE6C;
+        border: none;
+        width: 150px;
+}
+.successfully{
+        display: none;
+}
+/* !style for footer */
+.footer{
+        background-color: #000000;
+}
+.footer__menu{
+        padding: 40px 0 30px 0;
+}
